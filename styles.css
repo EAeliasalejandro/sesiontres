@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+}
+font-face{
+	font-family: "VesterbroExtraBold";
+  src: url("fonts/TRYVesterbro-Extrabold.otf");
+}
+.headerContainerPadre{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  right: 0px;
+  left: 0px;
+
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 45px;
+  font-size: 0;
+  font-family:sans-serif;
+}
+
+.headerContainerPadre>*{
+  vertical-align: middle;
+  display: inline-block;
+}
+.logo{
+  width: 15%;
+  height: 100%;
+}
+.logo > img{
+  height: 100%;
+}
+.navbar{
+  
+  width: 70%;
+  color:#025157;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.navbar>*{
+  font-size: 16px;
+}
+li{
+  margin-right: 25px;
+  margin-left: 25px;
+  display: inline;
+}
+.actions{
+  text-align: right;
+  width: 15%;
+  display: inline;
+  font-size: 14px;
+}
+.actions>*{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.SignIn{
+  color:#67b54b;
+}
+.botonPersonalizado2{
+  text-decoration: none;
+  padding: 12px 14px 12px 14px;
+  font-weight: 600;
+  color: #ffff;
+  background-color:#67b54b;
+  border-radius: 5px;
+  border: 0px 
+}
+.botonPersonalizado2:hover{
+  color:#67b54b;
+  background-color: #ffff;
+}
+main{
+  padding-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.titulo{
+  font-family: VesterbroExtraBold;
+  font-size: 68px;
+  color: #025157;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+h2{
+  font-family: VesterbroExtraBold;
+  font-size: 36px;
+  color: #025157;
+}
+.imgSection{
+  height: 200px;
+}
+p{
+  color: #46484c;
+  font-family: Arial;
+  font-size: 20px;
+}
+footer{
+  width: 100%;
+}
+footer>*{
+  display: inline-block;
+  vertical-align: middle;
+}
+.logoPie{
+  height: 50%;
+  text-align: left;
+}
+.derechosReservados{
+  
+  width: 50%;
+  text-align: right;
+  
+}
